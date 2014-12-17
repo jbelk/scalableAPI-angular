@@ -1,1 +1,35 @@
-<p>This is the partial for view 1.</p>
+<div class="pagecontainer">
+<h1> Product Finder</h1>    
+    
+<div class ="categoryselect">
+    <select ng-model="mycategory" ng-options="category.name for category in Categories" ng-change= "getcategory()">
+      <option value=""> FIRST choose category </option>
+    </select>
+</div>
+
+
+<div class="categoryselect">
+    <select ng-model = "myitem" ng-options="item.name for item in items.products" ng-change= "getproduct()"  >
+        <option value=""> THEN choose item </option>
+    </select>
+</div>
+    
+<hr class ="margintop20"> 
+
+<h1 ng-hide="mycategory && myitem" style="text-align:center; color:#909090;"> Select an item from above</h1>    
+    
+<h3 ng-show="product">{{product.name}} Colors </h3> 
+<p ng-show="product">Click Color to see image.</p>    
+
+<div id="container">   
+<div ng-repeat="color in product.colors" class="containeritem" ng-click="getimage(color.images)" style="background-color:#{{color.hex}}"></div>
+</div> 
+
+<div id="imagecontainer">
+<img ng-src="{{productimg.url}}" alt="">    
+</div>
+    
+
+ 
+    
+</div>    
