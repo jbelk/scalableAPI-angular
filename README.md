@@ -1,4 +1,4 @@
-#Example of using Scalable API with AngularJS
+#Example of using Scalable Press API with AngularJS
 
 - [Link to Example](http://scalableangularapi.site44.com/)
 
