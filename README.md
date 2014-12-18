@@ -1,6 +1,6 @@
 #Example of using Scalable API with AngularJS
 
-- [Link to Example](http://scalableangular.site44.com/)
+- [Link to Example](http://scalableangularapi.site44.com/)
 
 This application uses the Scalable Press API to show all of the available products in real-time. The application shows all of the categories and there associated products and images.
 
