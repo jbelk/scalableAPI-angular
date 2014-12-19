@@ -1,6 +1,6 @@
 #Example of using Scalable Press API with AngularJS
 
-![alt tag](https://drive.google.com/file/d/0B1xWrAB7STKhZWtBdTNNUjRWOU0/view?usp=sharing)
+![alt tag](http://scalableangularapi.site44.com/screen.png)
 
 - [Link to Example](http://scalableangularapi.site44.com/)
 
